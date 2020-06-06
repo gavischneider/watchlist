@@ -1,0 +1,59 @@
+input[type="submit"]::before {
+  content: "Delete ";
+}
+
+input[type="submit"] {
+  color: transparent;
+  text-indent: -9999px;
+  width: 30px; /* set width */
+  height: 30px; /* fixed height */
+  *margin-left: 9999px; /* IE6 only */
+  font-size: 0px;
+  line-height: 16px; /* retains height */
+  background-image: url("https://www.creativefabrica.com/wp-content/uploads/2018/11/Trash-can-icon-by-rudezstudio-580x386.jpg");
+}
+
+.nav-container {
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+nav .navbar-brand {
+  /* size for brand */
+  font-size: xx-large;
+}
+
+/* colors for brand */
+nav .navbar-brand .pink {
+  color: #ff4891;
+}
+
+nav .navbar-brand .yellow {
+  color: #ffd350;
+}
+
+nav .navbar-brand .lightBlue {
+  color: #00d1ff;
+}
+
+nav .navbar-brand .darkBlue {
+  color: #00b3f6;
+}
+
+nav .navbar-brand .purple {
+  color: #9969e3;
+}
+
+.table {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+th {
+  font-size: large;
+}
+
+td {
+  font-size: large;
+}

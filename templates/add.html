@@ -1,0 +1,22 @@
+{% extends "layout.html" %} {% block title %} Add Movie {% endblock %} {% block
+main %}
+<link rel="stylesheet" href="/static/add.css" />
+<br />
+<br />
+<center>
+  <form class="add-form" action="/add" method="post">
+    <div class="form-group">
+      <input
+        autocomplete="off"
+        autofocus
+        class="form-control"
+        name="movie"
+        placeholder="Movie Name"
+        type="text"
+      />
+    </div>
+
+    <button class="btn btn-primary" type="submit">Search</button>
+  </form>
+</center>
+{% endblock %}

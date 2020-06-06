@@ -1,0 +1,11 @@
+body {
+  background-image: url("/static/images/background.jpg");
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+.add-form {
+  width: 500px;
+  text-align: center;
+}
