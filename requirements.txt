@@ -15,7 +15,6 @@ MarkupSafe==1.1.1
 mccabe==0.6.1
 pycountry==19.8.18
 pylint==2.5.2
-python-itunes==1.0
 requests==2.23.0
 six==1.15.0
 toml==0.10.1
